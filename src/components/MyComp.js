@@ -132,8 +132,92 @@ export default function MyComp() {
             </select>
           </div>
         </form>
+
+        <form className="form-inline">
+          <div className="form-group">
+            <label>Email</label>
+            <input type="email" className="form-control" placeholder="Email" />
+          </div>
+          <div className="form-group">
+            <label>Password</label>
+            <input
+              type="password"
+              className="form-control"
+              placeholder="Password"
+            />
+          </div>
+          <div className="checkbox">
+            <input type="checkbox" />
+            Remember me
+          </div>
+          <button type="submit" className="btn btn-default">
+            Login
+          </button>
+        </form>
       </div>
 
+      <div className="container">
+        {/* Styled Lists */}
+        <hr />
+        <div className="list-group">
+          <a href="#" className="list-group-item active">
+            Item One
+          </a>
+          <a href="" className="list-group-item">
+            Item Two
+          </a>
+          <a href="" className="list-group-item list-group-item-success">
+            Item Three
+          </a>
+          <a href="" className="list-group-item">
+            Item Four
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div className="container">
+        {/* Cards */}
+
+        <div className="card">
+          <div className="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p>Card content goes here</p>
+            <button className="btn btn-primary"> Click</button>
+          </div>
+          <div className="card-footer">Card Footer</div>
+        </div>
+      </div>
+
+      <hr />
+      {/* Alerts */}
+
+      <div className="container">
+        <div className="alert alert-success" role="alert">
+          A Success Alert
+        </div>
+        <div className="alert alert-info" role="alert">
+          An Info Alert
+        </div>
+        <div className="alert alert-danger" role="alert">
+          A Danger Alert
+        </div>
+        <div className="alert alert-warning alert-dismissible" role="alert">
+          <button type="button" className="close" data-dismiss="alert">
+            {' '}
+            <span>&times;</span>
+          </button>
+          You can close this alert
+        </div>
+
+        <hr />
+
+        {/* progress bars */}
+
+
+        
+      </div>
+
+      <div style={{ height: '400px' }}></div>
       {/* Root div */}
     </div>
   );
