@@ -1,5 +1,6 @@
 import React from 'react';
 import img1 from '../assets/game.jpg';
+import './card-style.css'
 export default function Card(props) {
   return (
     <div>
