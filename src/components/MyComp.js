@@ -24,8 +24,7 @@ export default function MyComp() {
           exercitationem consequatur sunt est dignissimos temporibus voluptas?
           Temporibus!
         </p>
-
-        <hr />
+<hr />
         {/* alignment exercise */}
         <p class="text-left text-lowercase">left Lorem ipsum</p>
         <p class="text-right text-uppercase">center Phasellus iaculis</p>
