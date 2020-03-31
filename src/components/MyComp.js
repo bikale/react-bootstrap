@@ -24,7 +24,7 @@ export default function MyComp() {
           exercitationem consequatur sunt est dignissimos temporibus voluptas?
           Temporibus!
         </p>
-<hr />
+        <hr />
         {/* alignment exercise */}
         <p class="text-left text-lowercase">left Lorem ipsum</p>
         <p class="text-right text-uppercase">center Phasellus iaculis</p>
@@ -211,9 +211,16 @@ export default function MyComp() {
         <hr />
 
         {/* progress bars */}
-
-
-        
+        <div className="progress">
+          <div className="progress-bar w-50 progress-bar-striped"> 50%</div>
+        </div>
+        <br />
+        <div className="progress">
+          <div className="progress-bar w-50 progress-bar-striped progress-bar-animated">
+            {' '}
+            50%
+          </div>
+        </div>
       </div>
 
       <div style={{ height: '400px' }}></div>
