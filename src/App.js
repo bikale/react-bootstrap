@@ -1,9 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import MyComp from './components/MyComp';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <MyComp></MyComp>
+    </div>
+  );
 }
 
 export default App;
