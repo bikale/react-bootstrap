@@ -5,7 +5,7 @@ export default function Card(props) {
     <div>
       <div className="card text-center">
         <div className="overflow">
-          <img src={img1} alt="" srcset="" />
+          <img src={img1} alt="" srcset="" className='card-img-top'/>
         </div>
         <div className="card-body text-dark">
           <h4 className="card-title">Game Player</h4>
